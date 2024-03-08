@@ -16,21 +16,18 @@
             <a href="#">Trabalhe conosco</a>
         </nav>
     </header>
-    <main>
-        <section class="form">
-            <div class="nome">
-                <label for="nome">Nome completo: </label>
-                <input type="text" id="nome" />
-            </div>
-            <div class="telefone">
-                <label for="nome">Telefone: </label>
-                <input type="text" id="telefone" />
-            </div>
-            <div class="curriculo">
-                <p>Envie seu curriculo: </p>
-                <input name="userfile" type="file" accept="application/pdf, application/vnd.ms-excel" />
-            </section>
-        </div>
-    </main>
+    <div class="main-block">
+        <form action="/">
+          <h1>Trabalhe conosco</h1>
+          <div class="info">
+            <input class="fname" type="text" name="name" placeholder="Nome completo">
+            <input type="text" name="name" placeholder="Email" class="fname">
+            <input type="text" name="name" placeholder="Numero de telefone" class="fname">
+                <p>Podemos enviar mensagem pra você no whatsapp?</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">Sim
+          </div>
+          <button type="submit" href="/">Enviar</button>
+        </form>
+      </div>
 </body>
 </html>
