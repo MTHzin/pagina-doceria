@@ -11,6 +11,10 @@ body{
     background-color: rgb(244, 226, 226);
     height: 100%;
 }
+footer{
+    width: 600px;
+    background-color: rgb(119, 93, 0) 0px 0px 0px 0px;
+}
 /* Lado esquerdo */
 .imgesquerda{
     width: 150px;
